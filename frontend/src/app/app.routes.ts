@@ -5,6 +5,8 @@ import { MinistriesComponent } from './components/ministries/ministries.componen
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CommunityComponent } from './components/community/community.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -13,5 +15,6 @@ export const routes: Routes = [
     { path: 'projects', component: ProjectsComponent },
     { path: 'community', component: CommunityComponent },
     { path: 'navbar', component: NavbarComponent},
+    { path: 'footer', component: FooterComponent},
   ];
 
