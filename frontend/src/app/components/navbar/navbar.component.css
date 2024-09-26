@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#03045E;
+    color: white;
+    width: 100%;
+}
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color:#03045E;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.church-name {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+}
+
+.navbar-bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    background-color:#03045E;
+    gap: 15px;
+}
+
+.navbar-bottom a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px 10px;
+}
+
+.navbar-bottom a.active {
+    border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 1024px) {
+    .navbar-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .church-name {
+        margin-top: 10px;
+        font-size: 1.25rem;
+    }
+
+    .navbar-bottom {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar-bottom a {
+        padding: 5px 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        max-width: 50px;
+    }
+
+    .church-name {
+        font-size: 1.2rem;
+    }
+
+    .navbar-bottom {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .navbar-bottom a {
+        font-size: 1rem;
+    }
+}
