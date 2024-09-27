@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#03045E;
+    background-color: #03045E;
     color: white;
     width: 100%;
+    position: fixed; /* Makes the navbar fixed at the top */
+    top: 0;
+    z-index: 1000; /* Ensures navbar stays on top of content */
 }
 
 .navbar-top {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color:#03045E;
+    background-color: #03045E;
     width: 100%;
     justify-content: center;
 }
@@ -32,7 +35,7 @@
     justify-content: center;
     width: 100%;
     padding: 15px;
-    background-color:#03045E;
+    background-color: #03045E;
     gap: 15px;
 }
 
@@ -88,4 +91,9 @@
     .navbar-bottom a {
         font-size: 1rem;
     }
+}
+
+/* Add margin-top to body to prevent overlap with navbar */
+body {
+    margin-top: 120px; /* Adjust this based on the actual height of the navbar */
 }
