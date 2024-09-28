@@ -2,7 +2,8 @@
   background-color: #03045E;
   color: white;
   padding: 20px 0;
-  width: 100%;
+  width: 100vw;
+  position: relative;
 }
 
 .footer-content {
@@ -50,7 +51,7 @@
 }
 
 .social-icons a.facebook {
-  background-color: white;
+  background-color: #3b5998;
 }
 
 .social-icons a.twitter {
@@ -74,15 +75,15 @@
 
 @media (max-width: 768px) {
   .footer-content {
-    flex-direction: column;
-    text-align: center;
+      flex-direction: column;
+      text-align: center;
   }
 
   .footer-right {
-    margin-top: 15px;
+      margin-top: 15px;
   }
 
   .social-icons {
-    justify-content: center;
+      justify-content: center;
   }
 }

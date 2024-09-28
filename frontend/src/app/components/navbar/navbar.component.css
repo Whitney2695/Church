@@ -5,9 +5,9 @@
     background-color: #03045E;
     color: white;
     width: 100%;
-    position: fixed; /* Makes the navbar fixed at the top */
+    position: fixed; 
     top: 0;
-    z-index: 1000; /* Ensures navbar stays on top of content */
+    z-index: 1000; 
 }
 
 .navbar-top {
