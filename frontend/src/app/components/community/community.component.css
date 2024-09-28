@@ -6,15 +6,21 @@
     padding: 40px 20px;
 }
 
+.donation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
 .donation-message {
     font-size: 1.5rem;
     color: #333;
-    text-align: center;
-    margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
-    width: 100%;
-    max-width: 800px;
 }
 
 h2 {
@@ -60,8 +66,10 @@ h2 {
     color: #333;
 }
 
-.donate-button {
-    margin-top: 10px;
+.sticky-donate-button {
+    position: sticky;
+    top: 10px;
+    right: 0;
     padding: 10px 15px;
     background-color: #03045E;
     color: white;
@@ -71,13 +79,18 @@ h2 {
     font-size: 1rem;
 }
 
-.donate-button:hover {
+.sticky-donate-button:hover {
     background-color: #0077b6;
 }
 
 @media (max-width: 768px) {
     .community-work-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .donation-header {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
