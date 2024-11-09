@@ -11,8 +11,7 @@ import { FooterComponent } from '../../components/footer/footer.component';
 })
 export class HomeComponent implements OnInit, OnDestroy {
   images: string[] = [
-    'assets/men2.jpg',
-    'assets/children1.jpg',
+    
     'assets/youth3.JPG'
   ];
   currentImageIndex = 0;

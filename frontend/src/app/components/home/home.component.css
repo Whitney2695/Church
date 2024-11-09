@@ -90,8 +90,14 @@ html, body {
 
 /* Responsive Design for smaller screens */
 @media (max-width: 1024px) {
+    .top-section {
+        height: auto; 
+    }
+
     .church-image {
-        max-height: 400px;
+        max-height: 50vh; 
+        height: auto;
+        object-fit: contain; 
     }
 
     .services-list li {
@@ -103,13 +109,22 @@ html, body {
     }
 
     .gallery-grid img {
-        height: 120px; /* Adjust height for smaller screens */
+        height: 120px; 
     }
 }
 
 @media (max-width: 768px) {
+    .homepage {
+        margin-top: 150px;
+    }
+    .top-section {
+        height: auto;
+    }
+
     .church-image {
-        max-height: 250px;
+        max-height: 40vh; /* Further reduce max height */
+        height: auto;
+        object-fit: contain;
     }
 
     .gallery-grid {

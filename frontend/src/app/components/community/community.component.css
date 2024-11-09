@@ -84,6 +84,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .donation-message {
+        font-size: 15px;
+    }
+    .community-work-page {
+        margin-top: 150px;
+        margin-left: 0;
+        padding-left: 0;
+    }
     .community-work-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -97,5 +105,6 @@ h2 {
 @media (max-width: 480px) {
     .community-work-grid {
         grid-template-columns: 1fr;
+        
     }
 }

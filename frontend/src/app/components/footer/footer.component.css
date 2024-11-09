@@ -77,10 +77,13 @@
   .footer-content {
       flex-direction: column;
       text-align: center;
+      justify-content: center;
+      margin-left: 15%;
   }
-
+ 
   .footer-right {
       margin-top: 15px;
+      margin-left: 15%;
   }
 
   .social-icons {

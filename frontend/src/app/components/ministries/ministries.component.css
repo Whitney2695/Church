@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     padding: 20px;
+       overflow: hidden;
 }
 
 .ministries-grid {
@@ -12,7 +13,7 @@
     gap: 20px;
     width: 90%;
     max-width: 1200px;
-    margin-top: 40px; /* Added margin to move the grid down */
+    margin-top: 40px; 
 }
 
 .ministry {
@@ -48,6 +49,10 @@
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+    .ministries-page {
+        margin-top: 165px;
+        padding-left: 0px;
+    }
     .ministries-grid {
         grid-template-columns: repeat(2, 1fr);
     }

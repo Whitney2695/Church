@@ -75,8 +75,15 @@ h2 {
 }
 
 @media (max-width: 768px) {
+    .projects-page {
+        margin-top: 70px ;
+        padding-left:0px;
+    }
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .donation-message {
+        font-size: 15px;
     }
 }
 

@@ -1,3 +1,4 @@
+/* Navbar Styles */
 .navbar {
     display: flex;
     flex-direction: column;
@@ -51,6 +52,12 @@
     border-bottom: 2px solid #fff;
 }
 
+/* Add spacing below the fixed navbar to prevent overlap */
+body {
+    margin-top: 130px; /* Adjust this value based on the actual height of your navbar */
+}
+
+/* Medium screens (tablets) */
 @media (max-width: 1024px) {
     .navbar-top {
         flex-direction: column;
@@ -74,6 +81,7 @@
     }
 }
 
+/* Small screens (phones) */
 @media (max-width: 768px) {
     .logo {
         max-width: 50px;
@@ -83,17 +91,13 @@
         font-size: 1.2rem;
     }
 
-    .navbar-bottom {
-        flex-direction: column;
+    .navbar-bottom { 
+        flex-direction: row;
         gap: 5px;
+        padding: 10px;
     }
 
     .navbar-bottom a {
         font-size: 1rem;
     }
-}
-
-/* Add margin-top to body to prevent overlap with navbar */
-body {
-    margin-top: 120px; /* Adjust this based on the actual height of the navbar */
 }
