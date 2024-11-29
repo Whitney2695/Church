@@ -52,6 +52,7 @@
     .ministries-page {
         margin-top: 165px;
         padding-left: 0px;
+        padding-left: 0px;
     }
     .ministries-grid {
         grid-template-columns: repeat(2, 1fr);
